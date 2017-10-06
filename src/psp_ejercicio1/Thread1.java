@@ -26,7 +26,7 @@ public class Thread1 extends Thread{
             try {
                 sleep(Math.round(100*Math.random()));
             } catch (InterruptedException ex) {
-                Logger.getLogger(Thread2.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Thread1.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }

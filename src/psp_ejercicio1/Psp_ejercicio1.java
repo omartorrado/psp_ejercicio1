@@ -16,7 +16,7 @@ public class Psp_ejercicio1 {
      */
     public static void main(String[] args) {
         Thread1 t1=new Thread1("Miguel");
-        Thread2 t2=new Thread2("Juan");
+        Thread1 t2=new Thread1("Juan");
         t1.start();
         t2.start();
     }
